@@ -1,0 +1,4 @@
+# The frozen judge and harness prompts are loaded byte for byte and checked against SHA256SUMS.
+# Never let git rewrite their line endings.
+assets/judge/prompts/*.txt -text
+assets/harness/prompts/*.txt -text
